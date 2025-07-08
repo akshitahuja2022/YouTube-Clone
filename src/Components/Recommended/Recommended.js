@@ -15,7 +15,7 @@ function Recommended({ categoryId }) {
 
   useEffect(() => {
     fetchData();
-  }, []);
+  });
   if (!apiData) {
     return <div>Loading...</div>;
   }
